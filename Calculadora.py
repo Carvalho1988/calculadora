@@ -17,8 +17,10 @@ def calculadora(a, b, op):
     elif (op == 3):
         res = a*b
 
-    else:
+    elif (op == 4):
         res = a/b
+    else:
+        res = 0
     return res
 
 
